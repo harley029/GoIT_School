@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goose Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main-page">
+      <header class="main-page-header">
+        <img src="img/logo.svg" alt="GOIT logo" class="main-page-logo" />
+        <nav>
+          <a href="#shop" class="nav-link">Каталог</a>
+          <a href="#contact-us" class="nav-link">Контакти</a>
+        </nav>
+      </header>
+      <div class="main-page-content">
+        <div class="main-page-content-left">
+          <h1 class="main-page-tytle">
+            Бандерогусь -<br />за сраку орків кусь
+          </h1>
+          <p class="main-page-descr">
+            Інвестуй у стильний гардероб, перемогу України на бавовну тим, хто
+            вапщє нє хочєт атсюда уєзжать, бо тут так класна, как в свайом домє
+          </p>
+          <a href="#contact-us" class="main-page-btn">Замовити товар</a>
+        </div>
+        <img
+          src="img/product-main.svg"
+          alt="Main product"
+          class="main-page-content-right"
+        />
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="shop-container">
+        <h2 class="shop-title">Обери товар</h2>
+        <div class="shop-content">
+          <div class="shop-product">
+            <div class="product-top">
+              <img
+                src="img/product-1.svg"
+                alt="T-shirt"
+                class="shop-product-img"
+              />
+              <div class="shop-color-select">
+                <a href="" class="shop-color-item shop-color-item-white"></a>
+                <a href="" class="shop-color-item shop-color-item-black"></a>
+                <a href="" class="shop-color-item"></a>
+                <a href="" class="shop-color-item shop-color-item-blue"></a>
+              </div>
+              <h4 class="shop-product-title">Бандерофутболка</h4>
+              <p class="shop-product-descr">
+                Крилата футболка, по якій одразу видно, що ти з України
+              </p>
+            </div>
+            <div class="product-bottom">
+              <p class="shop-product-price">550 UAH</p>
+              <a href="#contact-us" class="shop-product-btn">Замовити</a>
+            </div>
+          </div>
+          <div class="shop-product">
+            <div class="product-top">
+              <img
+                src="img/product-2.svg"
+                alt="Socks"
+                class="shop-product-img"
+              />
+              <div class="shop-color-select">
+                <a href="" class="shop-color-item shop-color-item-white"></a>
+                <a href="" class="shop-color-item shop-color-item-black"></a>
+                <a href="" class="shop-color-item"></a>
+                <a href="" class="shop-color-item shop-color-item-blue"></a>
+              </div>
+              <h4 class="shop-product-title">Бавовняні шкарпетки</h4>
+              <p class="shop-product-descr">Зігрійся, щоб зігріти інших</p>
+            </div>
+            <div class="product-bottom">
+              <p class="shop-product-price">100 UAH</p>
+              <a href="#contact-us" class="shop-product-btn">Замовити</a>
+            </div>
+          </div>
+          <div class="shop-product">
+            <div class="product-top">
+              <img
+                src="img/product-3.svg"
+                alt="Phone cover"
+                class="shop-product-img"
+              />
+              <div class="shop-color-select">
+                <a href="" class="shop-color-item shop-color-item-white"></a>
+                <a href="" class="shop-color-item shop-color-item-black"></a>
+                <a href="" class="shop-color-item"></a>
+                <a href="" class="shop-color-item shop-color-item-blue"></a>
+              </div>
+              <h4 class="shop-product-title">Чохол для телефону</h4>
+              <p class="shop-product-descr">
+                Захисти свій телефон від подряпин і звичайності
+              </p>
+            </div>
+            <div class="product-bottom">
+              <p class="shop-product-price">330 UAH</p>
+              <a href="#contact-us" class="shop-product-btn">Замовити</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+      <h3 class="contact-us-title">Зв’язатися з нами</h3>
+      <div class="contact-us-content">
+        <form action="" class="contact-us-form">
+          <h4 class="contact-us-form-title">Напишіть листа</h4>
+
+          <div class="contact-us-form-field">
+            <label for="client-name" class="contact-us-form-field-label"
+              >Прізвище та ім’я</label
+            >
+            <input
+              type="text"
+              id="client-name"
+              name="Ім’я клієнта"
+              x
+              class="contact-us-form-field-input"
+            />
+          </div>
+          <div class="contact-us-form-field">
+            <label for="client-phone" class="contact-us-form-field-label"
+              >Телефон</label
+            >
+            <input
+              type="tel"
+              id="client-phone"
+              name="Телефон клієнта"
+              class="contact-us-form-field-input"
+            />
+          </div>
+          <div class="contact-us-form-field">
+            <label for="client-text" class="contact-us-form-field-label"
+              >Пара слів від себе</label
+            >
+            <textarea
+              name="Текст від клієнта"
+              id="client-text"
+              class="contact-us-form-field-text-area"
+            ></textarea>
+          </div>
+          <button type="submit" class="contact-us-form-btn">Відправити</button>
+        </form>
+
+        <div class="contact-us-right">
+          <div class="contact-us-contacts">
+            <h4 class="contact-us-contacts-title">Контакти</h4>
+            <div class="contact-us-item">
+              <h4 class="contact-us-item-type">Телефон:</h4>
+              <a href="tel:+380000000000" class="contact-us-item-link"
+                >+380 00 000 00 00</a
+              >
+            </div>
+            <div class="contact-us-item">
+              <h4 class="contact-us-item-type">Пошта:</h4>
+              <a href="mailto:banderogus@email.com" class="contact-us-item-link"
+                >banderogus@email.com</a
+              >
+            </div>
+            <div class="contact-us-item">
+              <h4 class="contact-us-item-type">Адреса:</h4>
+              <a
+                href="https://maps.app.goo.gl/7yxMJr1cJtksD8mm9"
+                class="contact-us-item-link"
+                target="_blank"
+                >Київ, м-н Незалежності, 16</a
+              >
+            </div>
+          </div>
+          
+          <div class="contact-us-social">
+            <h4 class="social-title">Наші соцмережі</h4>
+            <div class="social-links-container">
+              <a href="https://www.facebook.com" class="social-link" target="_blank"
+                ><img src="img/facebook.svg" alt="Facebook"
+              /></a>
+              <a href="" class="social-link" target="_blank"
+                ><img src="img/twitter.svg" alt="Twitter"
+              /></a>
+              <a href="" class="social-link"
+                ><img src="img/youtube.svg" alt="YouTube" target="_blank"
+              /></a>
+              <a href="" class="social-link"
+                ><img src="img/insta.svg" alt="Instagram" target="_blank"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

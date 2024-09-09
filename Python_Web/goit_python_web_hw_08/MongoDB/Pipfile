@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymongo = "4.7.2"
+mongoengine = "0.28.2"
+redis = "5.0.4"
+redis-lru = "0.1.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

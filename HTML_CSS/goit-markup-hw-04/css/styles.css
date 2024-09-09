@@ -1,0 +1,388 @@
+/* загальні стилі */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* загальні стилі для заголовків */
+.titles-h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.paragraphs {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Загальні стилі для DIV */
+.container {
+  width: 1128px;
+  margin: auto;
+}
+.image {
+  display: block;
+}
+img {
+  display: block;
+}
+
+/* секція header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  font-family: Raleway, sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.logo-2nd-part {
+  color: #2e2f42;
+}
+.page-nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+}
+.page-nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  padding: 24px 0;
+}
+.contacts {
+  color: #434455;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+.contacts-links {
+  color: #434455;
+  text-decoration: none;
+}
+
+.page-nav .page-nav-link:hover,
+.page-nav .page-nav-link:focus,
+.page-nav .page-nav-link:active {
+  color: #404bbf;
+}
+.contacts .contacts-links:hover,
+.contacts .contacts-links:focus,
+.contacts .contacts-links:active {
+  color: #404bbf;
+}
+
+/* Секція 1 - Intro */
+.intro {
+  /* background: #2e2f42; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.3),
+      rgba(46, 47, 66, 0.3)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  padding: 188px 0 188px 0;
+}
+.main-header {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: auto;
+  padding-bottom: 48px;
+}
+.order-service-button {
+  cursor: pointer;
+  background: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+.order-service-button:active,
+.order-service-button:hover,
+.order-service-button:focus {
+  background: #404bbf;
+}
+
+/* секція 2 - Features */
+.section-features {
+  background: #fff;
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section1-container {
+  width: 1128px;
+  margin: auto;
+}
+
+.features-list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-item-tytle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+/* секція 3 - Our Team -------------- REAFDY --------------*/
+.our-team {
+  background: #f4f4fd;
+  padding: 120px 0;
+}
+.our-team-tytle {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.our-team-list {
+  list-style-type: none;
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our-team-list-card {
+  background: #fff;
+  width: calc((100% - 24px * 3) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.our-team-list-content {
+  padding: 32px 0;
+}
+.our-team-list-card-tytle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.our-team-list-card-paragrapf {
+  text-align: center;
+}
+.card-social-lincs-container {
+  margin-top: 8px;
+  padding-bottom: 0;
+  display: flex;
+  gap: 24px;
+}
+
+.card-social-link {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Cекція 4 - Our Portfolio -------------- REAFDY -------------- */
+.our-portfolio {
+  background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-portfolio-tytle {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  list-style-type: none;
+  width: 1128px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: space-between;
+}
+.portfolio-list-card {
+  /* border: 1px solid #e7e9fc; */
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-list-card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-list-card-tytle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+.portfolio-list-card-text {
+  margin-left: 16px;
+}
+
+/* Футер -------------- REAFDY -------------- */
+.footer-line {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.footer-left-side {
+  width: 264px;
+}
+.logo-container {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/* логотип */
+.footer-logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+.footer-line-container {
+  display: flex;
+}
+/* Social media */
+.footer-social-container {
+  padding-left: 120px;
+}
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social-lincs-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  list-style: none;
+}
+
+
+.foter-social-link {
+  /* width: 40px; */
+  /* height: 40px; */
+  /* margin-right: 16px; */
+  /* text-decoration: none; */
+  /* cursor: pointer; */
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4D5AE5;
+  border-radius: 50%;
+  fill: #4D5AE5;
+}
+.footer-icon:hover {
+  fill: #31d0aa;
+}

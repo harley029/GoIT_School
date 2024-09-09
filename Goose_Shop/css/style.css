@@ -1,0 +1,326 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.main-page-tytle {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -2.56px;
+  color: #101010;
+  margin: 0;
+}
+
+.main-page-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101010;
+  margin-top: 28px;
+  margin-bottom: 56px;
+  width: 587px;
+}
+
+.main-page-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 30px;
+  background: #ff6b0a;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 92px;
+  padding-right: 92px;
+  text-decoration: none;
+}
+
+.main-page {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bgd.svg);
+  background-size: cover;
+}
+
+.main-page-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
+}
+
+.main-page-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
+  padding-top: 24px;
+  margin-bottom: 64px;
+}
+
+.nav-link {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #101010;
+  text-decoration: none;
+}
+/* Секція вибору товарів */
+.shop-container {
+  width: 1140px;
+  margin: auto;
+}
+
+.shop {
+  background: #f5faff;
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+
+.shop-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #101010;
+  text-align: center;
+  margin-bottom: 72px;
+  margin-top: 0;
+}
+
+.shop-product {
+  border-radius: 24px;
+  background: #fff;
+  width: calc((100% - 24px * 2) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 24px;
+  padding-left: 36px;
+  padding-right: 36px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.shop-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.shop-product-img {
+  margin-bottom: 28px;
+}
+
+.shop-color-item {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffec47;
+  display: block;
+}
+
+.shop-color-item-black {
+  background: #090909;
+}
+.shop-color-item-blue {
+  background: #47c7f0;
+}
+.shop-color-item-white {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+}
+
+.shop-color-select {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-product-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #101010;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.shop-product-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+  margin-top: 0x;
+  margin-bottom: 8px;
+}
+
+.shop-product-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #101010;
+  margin-top: 0x;
+  margin-bottom: 24px;
+}
+
+.shop-product-btn {
+  border-radius: 30px;
+  background: #ff6b0a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-decoration: none;
+  display: block;
+}
+.product-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+/* Секція контактів та форма звʼязку */
+.contact-us {
+  background: #dbf0ff;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.contact-us-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #101010;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.contact-us-content {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-form-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #101010;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.contact-us-form-field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-form-field-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #4e4e4e;
+  margin-bottom: 8px;
+}
+.contact-us-form-field-input {
+  border: 1px solid #4e4e4e;
+  border-radius: 12px;
+  width: 574px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.contact-us-form-field-text-area {
+  border: 1px solid #4e4e4e;
+  border-radius: 12px;
+  width: 574px;
+  height: 72px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.contact-us-form-btn {
+  border-radius: 30px;
+  background: #ff6b0a;
+  padding: 10px 60px 10px 60px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* Contacts part */
+.contact-us-contacts {
+  margin-bottom: 78px;
+}
+.contact-us-contacts-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #101010;
+  margin-bottom: 68px;
+  margin-top: 0;
+}
+.contact-us-item {
+  display: flex;
+  margin-bottom: 32px;
+}
+.contact-us-item-type {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #101010;
+  margin-right: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact-us-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #101010;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* social networks */
+.social-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #101010;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.social-link {
+  margin-right: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
